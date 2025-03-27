@@ -1,0 +1,71 @@
+   body{margin: 0;
+padding: 0;
+background-color:rgb(255, 192, 203,1);
+text-align: center;}
+   
+   
+   
+   
+   #name{color:blueviolet;
+    font-weight: bolder;
+font-size: 70px;
+margin-top: 15px;
+text-shadow: 2px 2px black;}
+
+
+
+#choicebox{display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+gap: 70px;
+}
+.choices:hover{opacity:0.7;
+border:3px dashed red}
+
+.choices{height: 150px;
+width: 150px;
+border-radius: 50%;
+border: 4px solid rgb(255, 69, 0,0.8);
+}
+
+#stone{background-image: url(stone.jpg);
+background-size: cover;
+}
+
+#paper{background-image: url(paper.jpg);
+    background-size:cover;}
+    
+#scissors{background-image: url(scissors.jpg);
+background-size: cover;}
+    
+#scorebox{display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 80px;
+gap: 7rem;
+margin-top: 1.5rem;
+color: crimson;}
+
+#scoreboxnew{display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 6rem;
+font-size: 35px;
+color: chocolate;
+font-weight: bolder;
+text-shadow: 1px 1px black;}
+
+#msg{font-family: cursive;
+font-size: 40px;
+display: inline-block;
+background-color: aqua;
+color: rgb(243, 10, 150,0.8);
+font-weight: bolder;
+padding:10px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius:40px;
+border: 2px solid brown;
+text-shadow: 2px 2px black;
+text-transform: capitalize;}
